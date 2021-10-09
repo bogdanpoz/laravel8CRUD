@@ -16,5 +16,5 @@ use App\Http\Controllers\PostController;
 Route::get('/', function () {
     return view('welcome');
 });
-
+/*--------this is post resource route, thus, there are all events in this like create, update, delete etc--------------*/ 
 Route::resource('posts', PostController::class);
